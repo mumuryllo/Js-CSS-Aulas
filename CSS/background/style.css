@@ -1,0 +1,33 @@
+    /* background-size: 400px 50px; de um lado largura e do outro altura
+    os valores vão corresponder dessa seguinte ordem ex: 20px 0px 45px 15 px
+    topo direita baixo e esquerda
+    x- horizontal
+    y- vertical
+    */
+
+body{
+    background-image: url('img/download.jfif');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 300px 350px ;
+    background-color: red;
+    background-attachment: fixed;
+}
+#d1, #d2, #d3 {
+border: 10px dotted #000;
+padding: 100px;
+background-color: #0f0;
+}
+
+#d1{
+    background-clip: border-box;
+    padding: 20px 30px 20px 10px;
+}
+
+#d2{
+    background-clip: padding-box;
+}
+#d3{
+    background-clip: content-box;
+    font-size: 20px;
+}

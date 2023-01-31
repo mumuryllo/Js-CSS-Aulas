@@ -1,0 +1,19 @@
+/* 
+Before - Quando eu quiser adicionar uma formatação específica antes de qualquer
+elemento.
+After - Quando eu quiser adicionar uma formatação específica depois de qualquer
+elemento.
+Selection - muda as coisas quando voce clica e segura com o mouse
+*/
+p::before{
+    content: "Dados - ";
+    color: royalblue;
+}
+p::after{
+    content: "Testes ";
+    color: blue;
+}
+::selection{
+    background-color: cornflowerblue;
+    color: yellow;
+}

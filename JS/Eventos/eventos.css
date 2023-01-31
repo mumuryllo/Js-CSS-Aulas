@@ -1,0 +1,12 @@
+div{
+    background-color: darkblue;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+div:hover{
+    background-color: cornflowerblue;
+    border: 1px solid darkorchid;
+    color: yellow;
+    border-radius: 5px;
+}

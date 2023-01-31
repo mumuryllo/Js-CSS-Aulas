@@ -1,0 +1,38 @@
+/* 
+padding - espaço interno
+margin - espaço externo
+auto - centraliza as div mas só se tiver width
+*/
+
+body {
+    margin: 0px;
+}
+
+div{
+    border: 1px solid #000;
+    margin: 50px 100px 50px 100px;
+}
+#d1{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#d2{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#d3{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+p{
+    text-align: center;
+}

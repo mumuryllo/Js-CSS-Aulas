@@ -1,0 +1,80 @@
+/* 
+display: none não renderiza na pagina
+visibility- hidden esconde na pag mas permanece lá
+display:block ocupa a linha toda
+display:inline ocupa só uma parte
+display table-cell - e basicamente fazer tabela com CSS
+display flex - flexibliza os elementos do container e o container
+e evita ter q usar muita propriedades como display block, inline, float,
+clear e etc.
+flex: 1 é o espaço que determino dos elementos
+flex-warp- quebra dos elementos e eu preciso de uma largura
+*/
+
+/* div, span {
+border: 1px solid #000;
+margin: 10px;
+} */
+
+/* #d1{
+    background-color: blue;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    margin-bottom: 10px;
+}
+
+ol,ul,li{
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol{
+    display: table;
+    width: 300px;
+}
+ul{
+    display: table-row;
+}
+li{
+    display: table-cell;
+} */
+/* 
+#d2{
+display: block;
+}
+
+#span1{
+display: inline;
+}
+
+#span2{
+display: inline-block;
+} */
+
+section{
+    border: 3px solid #f00;
+    display: flex;
+    flex-wrap: wrap;
+
+  /* Alinhamento Horizontal */
+  justify-content: flex-start;
+
+  /* Alinhamento Vertical */
+  align-items: center;
+
+  /* Direção dos elementos */
+  flex-direction: column;
+
+}
+
+div{
+    border: 1px solid #000;
+    width: 100px;
+
+}

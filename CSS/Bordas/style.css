@@ -1,0 +1,28 @@
+/* 
+border-style: tipo de borda, solid- linha continua, dotted- pontilhada
+dashed- tracejada, groove e ridge - 3D e none - sem nada
+border-width: tamanho da borda
+border-color: cor da borda
+border-radius - arredonda as bordas
+*/
+
+#d1,#d2,#d3 {
+    width: 300px;
+    height: 300px;
+    background: darkblue;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 20px;
+    border-radius: 20px;
+}
+#d1{
+    border-color: crimson;
+}
+p{
+    color: #fff;
+    border: #000 solid 10px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}

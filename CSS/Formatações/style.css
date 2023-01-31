@@ -1,0 +1,46 @@
+/*
+ text-align - alinha o texto, 
+ justify- alinha tanto na esquerda e na direita
+ hover- mudança de estilo qdo o mouse é passado por cima
+ link- não visitados
+ active- links que estao sendo visitados
+ 
+ */
+
+ p{
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: justify;
+    line-height: 3;
+ }
+ .p1{
+ text-transform: uppercase;
+ font-family: arial;
+ font-size: 10px;
+ font-weight: bold;
+ }
+ .p2{
+  text-transform: capitalize;
+  font-style: italic;
+ }
+ .p3{
+
+ }
+ .p4{
+text-decoration: none;
+color: red;
+font-size: 15px;
+background-color: darkorange;
+padding: 20px;
+ }
+ .p4:hover{
+    text-decoration: underline;
+    color: purple;
+    background-color: cornflowerblue;
+     }
+     .p4:active{
+        color: #fff;
+        background-color: darkblue;
+         }
+    

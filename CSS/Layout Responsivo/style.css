@@ -1,0 +1,21 @@
+/* 
+
+*/
+
+@media screen and (min-width:0px) and (max-width:400px) {
+    body{
+       background-color: cornflowerblue;
+    }
+}
+
+
+@media screen and (min-width:401px) and (max-width:800px) {
+    body{
+       background-color: darkblue;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1200px) {
+    body{
+       background-color: orangered;
+    }
+}
